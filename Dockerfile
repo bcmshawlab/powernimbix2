@@ -1,4 +1,4 @@
-FROM nvidia/cuda-ppc64le/tags/:9.0-cudnn7-devel-centos7
+FROM nvidia/cuda-ppc64le/tags:9.0-cudnn7-devel-centos7
 
 ADD /helloWorld /usr/bin/
 # ADD /STAR /usr/bin/
